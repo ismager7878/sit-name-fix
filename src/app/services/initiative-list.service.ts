@@ -31,7 +31,7 @@ export class InitiativeListService {
           initiativeItems.push({
             id: item.id,
             initiative: +metadata.initiative,
-            name: item.name,
+            name: item.text.plainText == "" ? item.name : item.text.plainText,
             active: metadata.active,
             rounds: metadata.rounds || 1,
             effects: metadata.effects,
