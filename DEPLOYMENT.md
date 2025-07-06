@@ -47,8 +47,18 @@ npm run build:prod
 ### Important Notes
 
 1. **Owlbear Rodeo Integration**: This extension is designed to work within the Owlbear Rodeo platform
-2. **CORS**: Make sure your hosting domain is allowed in Owlbear Rodeo's extension settings
-3. **HTTPS**: Owlbear Rodeo requires HTTPS for extensions (Render provides this automatically)
+2. **Manifest Location**: The `manifest.json` file must be accessible at the root URL (e.g., `https://your-site.com/manifest.json`)
+3. **CORS**: Make sure your hosting domain is allowed in Owlbear Rodeo's extension settings
+4. **HTTPS**: Owlbear Rodeo requires HTTPS for extensions (Render provides this automatically)
+
+### Registering Your Extension with Owlbear Rodeo
+
+After deployment, register your extension:
+
+1. Go to [extensions.owlbear.rodeo](https://extensions.owlbear.rodeo)
+2. Click "Add Extension" 
+3. Enter your hosted URL: `https://your-app-name.onrender.com`
+4. Owlbear Rodeo will automatically detect and load your `manifest.json`
 
 ### Troubleshooting
 
