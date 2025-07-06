@@ -1,8 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M20 11a8.1 8.1 0 0 0 -6.986 -6.918a8.095 8.095 0 0 0 -8.019 3.918" />
-  <path d="M4 13a8.1 8.1 0 0 0 15 3" />
-  <path d="M19 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M5 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24"
+   height="24"
+   stroke-width="1.5"
+   stroke="currentColor"
+   fill="none"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   version="1.1"
+   id="svg6"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <path
+     stroke="none"
+     d="M 0,0 H 24 V 24 H 0 Z"
+     fill="none"
+     id="path1" />
+  <path
+     d="M 20,11 A 8.1,8.1 0 0 0 13.014,4.082 8.095,8.095 0 0 0 4.995,8"
+     id="path2" />
+  <path
+     d="m 4,13 a 8.1,8.1 0 0 0 15,3"
+     id="path3" />
+  <path
+     d="m 19,16 m -1,0 a 1,1 0 1 0 2,0 1,1 0 1 0 -2,0"
+     id="path4" />
+  <path
+     d="M 5,8 M 4,8 A 1,1 0 1 0 6,8 1,1 0 1 0 4,8"
+     id="path5" />
+  <path
+     style="fill:#ffffff;fill-opacity:0"
+     id="path7"
+     d="M 13.347044,13.40874 10.807493,11.996915 8.2047544,13.288551 8.7627155,10.437017 6.730006,8.360803 9.6143961,8.0102829 10.960851,5.435476 l 1.22469,2.6349013 2.864864,0.4848955 -2.12749,1.9789782 z"
+     transform="translate(1.0694087,2.159383)" />
 </svg>

@@ -1,7 +1,7 @@
 {
-  "name": "SIT",
-  "description": "Schmandi's Initiative and Effects Tracker with rounds counter.",
-  "author": "Schmandi",
+  "name": "Modifed SIT",
+  "description": "Modifed Schmandi's Initiative and Effects Tracker with rounds counter.",
+  "author": "Schmandi and Barbre",
   "version": "1.2.5",
   "manifest_version": 1,
   "icon": "/assets/app-logo.png",

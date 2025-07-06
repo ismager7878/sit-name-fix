@@ -5,6 +5,7 @@ import { ContextMenuService } from './services/context-menu.service';
 import { InitiativeListService } from './services/initiative-list.service';
 import { EffectListService } from './services/effect-list.service';
 import { GMConfigService } from './services/gm-config.service';
+import { GroupedItemService } from './services/grouped-item.service';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -13,6 +14,7 @@ export const appConfig: ApplicationConfig = {
     InitiativeListService,
     EffectListService,
     GMConfigService,
+    GroupedItemService,
     provideAnimations(),
   ],
 };

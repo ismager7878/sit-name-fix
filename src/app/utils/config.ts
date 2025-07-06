@@ -1,1 +1,1 @@
-export const ID = 'at.manuelpoell.sit';
+export const ID = 'com.abarbre.custom_sit';

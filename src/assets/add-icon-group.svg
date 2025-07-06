@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="24"
+   width="24"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <path
+     d="M 11,19 V 13 H 5 v -2 h 6 V 5 h 2 v 6 h 6 v 2 h -6 v 6 z"
+     id="path1" />
+  <text
+     xml:space="preserve"
+     style="text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000"
+     x="14.959108"
+     y="12.104088"
+     id="text1"><tspan
+       id="tspan1"
+       x="14.959108"
+       y="12.104088">*</tspan></text>
+</svg>
