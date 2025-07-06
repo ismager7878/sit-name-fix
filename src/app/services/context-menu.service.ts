@@ -86,6 +86,7 @@ export class ContextMenuService {
               { key: 'layer', value: 'CHARACTER' },
               { key: ['metadata', `${ID}/metadata`], value: undefined, operator: '!=' },
               { key: ['metadata', `${ID}/metadata`, 'effects', 'length'], value: 0, operator: '==' },
+              { key: ['metadata', `${ID}/metadata`, 'hidden'], value: false },
             ],
           },
         },
@@ -96,6 +97,7 @@ export class ContextMenuService {
             every: [
               { key: 'layer', value: 'CHARACTER' },
               { key: ['metadata', `${ID}/metadata`], value: undefined, operator: '!=' },
+              { key: ['metadata', `${ID}/metadata`, 'hidden'], value: false },
             ],
           },
         },
@@ -222,6 +224,7 @@ export class ContextMenuService {
               { key: ['metadata', `${ID}/metadata`], value: undefined, operator: '!=' },
               { key: ['metadata', `${ID}/metadata`, 'group'], value: undefined, operator: '==' },
               { key: ['metadata', `${ID}/metadata`, 'hidden'], value: false },
+              { key: ['metadata', `${ID}/metadata`, 'effects', 'lenght'], value: 0, operator: '==' },
             ],
             roles: ['GM'],
           },
@@ -235,6 +238,7 @@ export class ContextMenuService {
               { key: ['metadata', `${ID}/metadata`], value: undefined, operator: '!=' },
               { key: ['metadata', `${ID}/metadata`, 'group'], value: undefined, operator: '==' },
               { key: ['metadata', `${ID}/metadata`, 'hidden'], value: true },
+              { key: ['metadata', `${ID}/metadata`, 'effects', 'length'], value: 0, operator: '==' },
             ],
             roles: ['GM'],
           }
@@ -247,6 +251,7 @@ export class ContextMenuService {
               { key: 'layer', value: 'CHARACTER' },
               { key: ['metadata', `${ID}/metadata`], value: undefined, operator: '!=' },
               { key: ['metadata', `${ID}/metadata`, 'hidden'], value: false },
+              { key: ['metadata', `${ID}/metadata`, 'effects', 'length'], value: 0, operator: '==' },
             ],
             roles: ['GM'],
             max: 1, // Only allow this action for one group at a time
@@ -260,6 +265,7 @@ export class ContextMenuService {
               { key: 'layer', value: 'CHARACTER' },
               { key: ['metadata', `${ID}/metadata`], value: undefined, operator: '!=' },
               { key: ['metadata', `${ID}/metadata`, 'hidden'], value: true },
+              { key: ['metadata', `${ID}/metadata`, 'effects', 'length'], value: 0, operator: '==' },
             ],
             roles: ['GM'],
             max: 1, // Only allow this action for one group at a time
