@@ -42,8 +42,7 @@ export class ContextMenuService {
         const addToInitiative = context.items.every((item) => item.metadata[`${ID}/metadata`] === undefined);
 
         if (addToInitiative) {
-          const initiativeInput = window.prompt('Enter initiative:');
-          const initiative = initiativeInput && parseInt(initiativeInput) ? parseInt(initiativeInput) : 0;
+          const initiative = 0;
           
           // Update items
           OBR.scene.items.updateItems(
@@ -186,8 +185,7 @@ export class ContextMenuService {
         }
 
         const groupName = window.prompt('Enter group name for grouped items:');
-        const initiativeInput = window.prompt('Enter initiative for grouped items:');
-        const initiative = initiativeInput && parseInt(initiativeInput) ? parseInt(initiativeInput) : 0;
+        const initiative = 0;
 
         const groupId = await this.groupedItemService.createGroup(groupName || 'Unnamed Group', initiative);
         
@@ -224,7 +222,7 @@ export class ContextMenuService {
               { key: ['metadata', `${ID}/metadata`], value: undefined, operator: '!=' },
               { key: ['metadata', `${ID}/metadata`, 'group'], value: undefined, operator: '==' },
               { key: ['metadata', `${ID}/metadata`, 'hidden'], value: false },
-              { key: ['metadata', `${ID}/metadata`, 'effects', 'lenght'], value: 0, operator: '==' },
+              { key: ['metadata', `${ID}/metadata`, 'effects', 'length'], value: 0, operator: '==' },
             ],
             roles: ['GM'],
           },

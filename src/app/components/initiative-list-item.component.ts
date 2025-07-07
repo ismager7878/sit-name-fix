@@ -17,6 +17,9 @@ import { GMConfigService } from '../services/gm-config.service';
             id="path1"
             style="fill:#ffffff;fill-opacity:1" />
         </svg>
+        <svg class="icon" width="30px" height="25px" style="margin-left: 5px;" *ngIf="item.visible">
+          <path d="M21.0006 12.0007C19.2536 15.5766 15.8779 18 12 18M12 18C8.12204 18 4.7463 15.5766 2.99977 12.0002M12 18L12 21M19.4218 14.4218L21.4999 16.5M16.2304 16.9687L17.5 19.5M4.57812 14.4218L2.5 16.5M7.76953 16.9687L6.5 19.5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
       </span>
       <input type="number" [value]="item.initiative" (change)="updateInitiative($event)" />
     </div>
