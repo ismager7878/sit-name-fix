@@ -487,7 +487,7 @@ export class InitiativeListService implements OnDestroy {
           y: 0.5
         })
         .layer("ATTACHMENT")
-        .disableAttachmentBehavior(["SCALE"])
+        .disableAttachmentBehavior(["SCALE", "ROTATION"])
         .build();
     
     return highlighter;

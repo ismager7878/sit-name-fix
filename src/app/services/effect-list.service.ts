@@ -240,7 +240,7 @@ export class EffectListService {
         y: character.position.y - Math.sin(Math.PI/4*3)*(character.scale.y * .5 * gridDpi + 30)
       })
       .locked(true)
-      .disableAttachmentBehavior(['SCALE'])
+      .disableAttachmentBehavior(['SCALE', 'ROTATION'])
       .build(); 
 
     return path
