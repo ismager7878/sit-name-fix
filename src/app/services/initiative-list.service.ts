@@ -514,8 +514,13 @@ export class InitiativeListService implements OnDestroy {
     if (this.isUpdatingHighlighter) {
       return;
     }
-    
     this.isUpdatingHighlighter = true;
+    
+    // Skip postion update for players sessions
+    const role = await OBR.player.getRole();
+    if (role === "PLAYER") {
+      return;
+    }
     
     try {
       let sceneMetadata = (await OBR.scene.getMetadata())[`${ID}/metadata`] as any;
@@ -551,6 +556,7 @@ export class InitiativeListService implements OnDestroy {
 
           let newHighlighters = []
           for (let i = 0; i < countOffset; i++) {
+
             const highlighter = this.buildHighlighter() as Image;
             sceneMetadata.highlighters.push(highlighter.id);
             newHighlighters.push(highlighter);
